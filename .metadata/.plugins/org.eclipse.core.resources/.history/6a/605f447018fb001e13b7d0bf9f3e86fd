@@ -1,0 +1,18 @@
+package com.example.Service;
+
+import java.util.List;
+
+import com.example.binding.Course;
+
+
+public interface CourseService {
+	
+	public static String upsert(Course course) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public Course getbyId(Integer id);
+	public List<Course> getAllCourses();
+	public String deleteById(Integer id);
+
+}

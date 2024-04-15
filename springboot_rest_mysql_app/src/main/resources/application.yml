@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: springboot_rest_mysql_app
